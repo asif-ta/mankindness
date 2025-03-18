@@ -345,7 +345,7 @@ footer{
     }
     .firstwholeContainer{
         margin: 1.5em 0 0 0em;
-        min-height: 29%;
+        min-height: 14em;
     }
     .firstwholeContainer div{
         width: 30%;
@@ -355,7 +355,7 @@ footer{
     }
     .secondwholeContainer{
         margin: 0em 0 0 0%;
-        min-height: 29%;
+        min-height: 14em;
     }
     .secondwholeContainer div{
         width: 30%;
@@ -370,7 +370,7 @@ footer{
         padding: 6% 0;
     }
     .articleTwo{
-        min-height: 180%;
+        min-height: 95em;
         padding-top: 1.5rem;
     }
     .articleTwo h2{
@@ -392,7 +392,7 @@ footer{
         float: none;
     }
     .articleThree{
-        min-height: 100%;
+        min-height: 54.5em;
         padding-top: 2.43rem;
     }
     .articleThree .about h2{
@@ -400,7 +400,7 @@ footer{
     }
     .articleThree .about{
         max-width: 100%;
-        min-height: 62%;
+        min-height: 33em;
     }
     .articleThree .about p{
         float: right;
@@ -414,8 +414,8 @@ footer{
         display: none;
     }
     .articleThree .untoldStorySide{
-        min-width: 26%;
-        min-height: 30%;
+        min-width: 9em;
+        min-height: 18em;
         float: left;
         margin-top: 1rem;
     }
@@ -443,7 +443,7 @@ footer{
         font-size: 1.63rem;
     }
     footer{
-        min-height: 6%;
+        min-height: 3em;
         padding-top:1rem;
     }
     .finalSection{
@@ -452,7 +452,7 @@ footer{
         font-size: 1rem;
     }
 }
-@media(min-width:576px) and (max-width:768px){  /* larger phones - 768px */
+@media(min-width:577px) and (max-width:768px){  /* larger phones - 768px */
     .grid{
         width: 90%;
     }
@@ -495,7 +495,7 @@ footer{
     }
     .firstwholeContainer{
         margin: 1.5em 0 2em 0em;
-        min-height: 29%;
+        min-height: 15em;
     }
     .firstwholeContainer div{
         width: 30%;
@@ -505,7 +505,7 @@ footer{
     }
     .secondwholeContainer{
         margin: 0em 0 2em 0%;
-        min-height: 29%;
+        min-height: 15em;
     }
     .secondwholeContainer div{
         width: 30%;
@@ -520,7 +520,7 @@ footer{
         padding: 6% 0;
     }
     .articleTwo{
-        min-height: 168%;
+        min-height: 89em;
         padding-top: 1.5rem;
     }
     .articleTwo h2{
@@ -542,7 +542,7 @@ footer{
         float: none;
     }
     .articleThree{
-        min-height: 90%;
+        min-height: 51em;
         padding-top: 2.43rem;
     }
     .articleThree .about h2{
@@ -550,7 +550,7 @@ footer{
     }
     .articleThree .about{
         max-width: 100%;
-        min-height: 50%;
+        min-height: 26em;
     }
     .articleThree .about p{
         float: right;
@@ -565,7 +565,7 @@ footer{
     }
     .articleThree .untoldStorySide{
         min-width: 26%;
-        min-height: 30%;
+        min-height: 20em;
         float: left;
         margin-top: 1rem;
     }
@@ -593,7 +593,7 @@ footer{
         font-size: 1.63rem;
     }
     footer{
-        min-height: 6%;
+        min-height: 3em;
         padding-top:1rem;
     }
     .finalSection{
@@ -602,7 +602,7 @@ footer{
         font-size: 1rem;
     }
 }
-@media(min-width:768px) and (max-width:992px){ /* tablets - 992px*/
+@media(min-width:769px) and (max-width:992px){ /* tablets - 992px*/
     .grid{
         width: 90%;
     }
@@ -645,7 +645,7 @@ footer{
     }
     .firstwholeContainer{
         margin: 1.5em 0 2em 0em;
-        min-height: 40%;
+        min-height: 20em;
     }
     .firstwholeContainer div{
         width: 30%;
@@ -655,7 +655,7 @@ footer{
     }
     .secondwholeContainer{
         margin: 0em 0 2em 0%;
-        min-height: 40%;
+        min-height: 20em;
     }
     .secondwholeContainer div{
         width: 30%;
@@ -670,7 +670,7 @@ footer{
         padding: 6% 0;
     }
     .articleTwo{
-        min-height: 168%;
+        min-height: 86em;
         padding-top: 1.5rem;
     }
     .articleTwo h2{
@@ -692,7 +692,7 @@ footer{
         float: none;
     }
     .articleThree{
-        min-height: 100%;
+        min-height: 45em;
         padding-top: 2.43rem;
     }
     .articleThree .about h2{
@@ -700,7 +700,7 @@ footer{
     }
     .articleThree .about{
         max-width: 100%;
-        min-height: 50%;
+        min-height: 22em;
     }
     .articleThree .about p{
         float: right;
@@ -715,7 +715,7 @@ footer{
     }
     .articleThree .untoldStorySide{
         min-width: 21%;
-        min-height: 41%;
+        min-height: 19em;
         float: left;
         margin-top: 1rem;
     }
@@ -743,7 +743,7 @@ footer{
         font-size: 1.63rem;
     }
     footer{
-        min-height: 6%;
+        min-height: 3.5em;
         padding-top:1rem;
     }
     .finalSection{
@@ -753,7 +753,7 @@ footer{
         text-align: center;
     }
 }
-@media(min-width:992px) and (max-width:1200px){ /*small laptops - 1200px*/
+@media(min-width:993px) and (max-width:1200px){ /*small laptops - 1200px*/
     .grid{
         width: 80%;
     }
@@ -796,7 +796,7 @@ footer{
     }
     .firstwholeContainer{
         margin: 1.5em 0 2em 0em;
-        min-height: 46%;
+        min-height:25em;
     }
     .firstwholeContainer div{
         width: 30%;
@@ -806,7 +806,7 @@ footer{
     }
     .secondwholeContainer{
         margin: 0em 0 2em 0%;
-        min-height: 46%;
+        min-height: 25em;
     }
     .secondwholeContainer div{
         width: 30%;
@@ -821,7 +821,7 @@ footer{
         padding: 6% 0;
     }
     .articleTwo{
-        min-height: 170%;
+        min-height: 90em;
         padding-top: 2rem;
     }
     .articleTwo h2{
@@ -843,7 +843,7 @@ footer{
         float: none;
     }
     .articleThree{
-        min-height: 100%;
+        min-height: 55em;
         padding-top: 2.43rem;
     }
     .articleThree .about h2{
@@ -851,7 +851,7 @@ footer{
     }
     .articleThree .about{
         max-width: 100%;
-        min-height: 45%;
+        min-height: 24em;
     }
     .articleThree .about p{
         float: right;
@@ -866,7 +866,7 @@ footer{
     }
     .articleThree .untoldStorySide{
         min-width: 21%;
-        min-height: 41%;
+        min-height: 25em;
         float: left;
         margin-top: 2rem;
     }
@@ -894,7 +894,7 @@ footer{
         font-size: 1.63rem;
     }
     footer{
-        min-height: 6%;
+        min-height: 4em;
         padding-top:1rem;
     }
     .finalSection{
