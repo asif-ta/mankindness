@@ -1,0 +1,906 @@
+*{
+    box-sizing: border-box;
+}
+.grid{
+    width: 75%;
+    /* background: rgba(0, 0, 0, 0.5); */
+    margin: 0 auto;
+}
+body{
+    font-family: "Oswald", sans-serif;
+}
+h1{
+    font-size: 4rem;
+}
+h2{
+    font-size: 2.93rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    font-size: 2.25rem;
+}
+h5{
+    font-size: 1.62rem;
+}
+h6{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1.12rem;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    font-size: 3.43rem;
+    line-height: 1.82em;
+    margin-left: 1.16em;
+}
+nav{
+    flex-grow: 1;
+    max-width: 641px;
+    line-height: 6.25em;
+    margin: 0px 5.37em 0px 5.37em;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #000;
+}
+.banner{
+    position: relative;
+}
+.banner h3{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    line-height: 2.4em;
+    padding: 0px 1.40em 0px 1.40em;
+    margin-bottom: 2.05em;
+    background-color: #fff;
+}
+.banner img{
+    width: 100%;
+    background-color: black;
+}
+.collectionSection{
+    min-height: 1780px;
+    background-image: url(../img/filmStripWithRectangle.png) ,url(../img/cameraWithCircle.png);
+    background-size: 25% , 20%;
+    background-repeat: no-repeat,no-repeat;
+    background-position: 100% -12% , 0% 56%;
+
+}
+.collectionSection div .individualContainerOne:hover .secondImg{
+    transform: rotate(-1.9deg);
+    transform-origin: left bottom;
+}
+.collectionSection div .individualContainerOne:hover .thirdImg{
+    transform: rotate(-3.82deg);
+    transform-origin: left bottom;
+}
+.collectionSection div .individualContainerTwo:hover .secondImg{
+    transform: rotate(-1.9deg);
+    transform-origin: left bottom;
+}
+.collectionSection div .individualContainerTwo:hover .thirdImg{
+    transform: rotate(-3.82deg);
+    transform-origin: left bottom;
+}
+.collectionSection div .individualContainerThree:hover .secondImg{
+    transform: rotate(-1.9deg);
+    transform-origin: left bottom;
+}
+.collectionSection div .individualContainerThree:hover .thirdImg{
+    transform: rotate(-3.82deg);
+    transform-origin: left bottom;
+}
+.collectionSection .grid{
+    position: relative;
+    padding: 3.6em 0 0 1.71em;
+}
+.firstwholeContainer{
+    max-width: 1051px;
+    min-height: 411px;
+    /* background: yellow; */
+    margin: 1.5em 0 0 1.71em;
+    display: flex;
+    justify-content: space-between;
+}
+.firstwholeContainer div{
+    width: 316px;
+    height: 100%;
+    position: relative;
+}
+.firstwholeContainer div img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all ease-in-out 0.64s;
+}
+.firstwholeContainer div h5{
+    position: absolute;
+    top: 13.1em;
+    color: #000;
+}
+.captureText{
+    position: absolute;
+    color: #fff;
+    top: 10em;
+    right: -9.2em;
+    transform: rotate(50.63deg);
+    transform-origin: left bottom;
+}
+
+.secondwholeContainer{
+    max-width: 1051px;
+    min-height: 411px;
+    display: flex;
+    justify-content: space-between;
+    margin: 7.15em 0 0 27%;
+}
+.secondwholeContainer div{
+    width: 316px;
+    height: 100%;
+    position: relative;
+}
+.secondwholeContainer div img{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all ease-in-out 0.64s;
+}
+.secondwholeContainer div h5{
+    position: absolute;
+    top: 13.1em;
+    color: #000;
+}
+.photoStrip{
+    width: 100%;
+    margin-top: 17.11em;
+}
+.articleOne{
+    min-height: 643px;
+}
+.articleOne .grid{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.articleOne h1{
+    margin-top: 0.82em;
+}
+.articleOne p{
+    max-width: 970px;
+    /* flex-basis: 970px; */
+    line-height: 27px;
+    text-align: justify;
+}
+.articleTwo{
+    min-height: 988px;
+    background-color: #000;
+    padding-top: 4.5rem;
+
+}
+.articleTwo h2{
+    margin: 0 0 1.43em 0;
+    color: #fff;
+}
+.articleTwo .firstP{
+    max-width: 661px;
+    float: left;
+    line-height: 1.69rem;
+    color: #fff;
+    font-weight: 300;
+    text-align: justify;
+
+}
+.articleTwo .secondP{
+    max-width: 710px;
+    margin: 2.93rem 0 0 3.37rem;
+    float: right;
+    line-height: 1.69rem;
+    color: #fff;
+    font-weight: 300;
+    text-align: justify;
+}
+.articleTwo img{
+    max-width: 710px;
+    margin-left: 3.37rem;
+    float: right;
+}
+.articleThree .about{
+    max-width: 1075px;
+    min-height: 659px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    float: left;
+}
+.articleThree{
+    min-height: 813.67px;
+    padding-top: 5.43rem;
+}
+.articleThree .about h2{
+    margin: 4.25rem 7.43rem 3.56rem 7.62rem;
+}
+.articleThree .about img{
+    margin: 0 0 3.93rem 7.62rem;
+    max-width: 294.23px;
+    float: left;
+}
+.articleThree .about p{
+    float: right;
+    max-width: 466px;
+    margin-right: 7.43rem;
+    line-height: 1.68rem;
+    text-align: justify;
+}
+.articleThree .untoldStorySide{
+    background: url(../img/city.png) no-repeat;
+    background-size: contain;
+    min-width: 346.61px;
+    min-height: 659px;
+    float: right;
+    position: relative;
+}
+.articleThree .untoldStorySide h4{
+    position: absolute;
+    text-align: center;
+    bottom: 3.31rem;
+    left: 1.31rem;
+    color: #fff;
+}
+.articleThree .untoldStorySide p{
+    position: absolute;
+    bottom: 1.46rem;
+    right: 2.15rem;
+    color: #000;
+    font-size: 0.63rem;
+    line-height: 1.56rem;
+    width: 3.5rem;
+    height: 1.56rem;
+    background: #fff;
+    text-align: center;
+}
+footer{
+    min-height: 111px;
+    padding-top: 2.56rem;
+    background: #000;
+}
+.finalSection{
+    margin: 0 auto;
+    max-width: 35.625rem;
+    font-size: 1.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.finalSection li{
+    flex-grow: 1;
+}
+.finalSection li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* responsive */
+
+@media(max-width:576px){ /* small phones - 576px*/
+    .grid{
+        width: 90%;
+        /* background: rgba(0, 0, 0, 0.5); */
+        margin: 0 auto;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 2.25rem;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    h6{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.12rem;
+    }
+    nav{
+        margin: 0px 5.37em 0px 4em;
+    }
+    .banner h3{
+        bottom:1em;
+        padding: 0px 2.40em 0px 1.40em;
+        margin-bottom: 0.05em;
+    }
+    .collectionSection{
+        min-height: 85%;
+        background: none;
+    
+    }
+    .collectionSection .grid{
+        padding: 1.6em 0 0 1.71em;
+    }
+    .firstwholeContainer{
+        margin: 1.5em 0 0 0em;
+        min-height: 29%;
+    }
+    .firstwholeContainer div{
+        width: 30%;
+    }
+    .firstwholeContainer div h5{
+        top: 11.1em;
+    }
+    .secondwholeContainer{
+        margin: 0em 0 0 0%;
+        min-height: 29%;
+    }
+    .secondwholeContainer div{
+        width: 30%;
+    }
+    .secondwholeContainer div h5{
+        top: 11.1em;
+    }
+    .photoStrip{
+        margin-top: 1.11em;
+    }
+    .articleOne p{
+        padding: 6% 0;
+    }
+    .articleTwo{
+        min-height: 180%;
+        padding-top: 1.5rem;
+    }
+    .articleTwo h2{
+        margin: 0 0 0.43em 0;
+    }
+    .articleTwo img{
+        max-width: 100%;
+        margin-left: 0rem;
+        float: none;
+        margin-top: 1rem;
+    }
+    .articleTwo .firstP{
+        max-width: 100%;
+        float: none;
+    }
+    .articleTwo .secondP{
+        max-width: 100%;
+        margin: 0.93rem 0 0 0rem;
+        float: none;
+    }
+    .articleThree{
+        min-height: 100%;
+        padding-top: 2.43rem;
+    }
+    .articleThree .about h2{
+        margin: 1.25rem 1.43rem 1.56rem 1.62rem;
+    }
+    .articleThree .about{
+        max-width: 100%;
+        min-height: 62%;
+    }
+    .articleThree .about p{
+        float: right;
+        max-width: 92%;
+        margin-right: 1.43rem;
+        line-height: 1.68rem;
+    }
+    .articleThree .about img{
+        margin: 0 0 0.93rem 1.62rem;
+        max-width: 25%;
+        display: none;
+    }
+    .articleThree .untoldStorySide{
+        min-width: 26%;
+        min-height: 30%;
+        float: left;
+        margin-top: 1rem;
+    }
+    .articleThree .untoldStorySide h4{
+        position: absolute;
+        text-align: center;
+        top: 0rem;
+        left:0rem;
+        width: 140%;
+        color: #000;
+        transform: translateX(15rem) translateY(3rem);
+    }
+    .articleThree .untoldStorySide p{
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        line-height: 1.56rem;
+        width: 8.5rem;
+        height: 1.56rem;
+        background: #fff;
+        text-align: center;
+        transform: translateX(17rem)  translateY(9rem);
+    }
+    .articleThree .untoldStorySide p a{
+        font-size: 1.63rem;
+    }
+    footer{
+        min-height: 6%;
+        padding-top:1rem;
+    }
+    .finalSection{
+        max-width: 20.625rem;
+        margin: 0px auto;
+        font-size: 1rem;
+    }
+}
+@media(min-width:576px) and (max-width:768px){  /* larger phones - 768px */
+    .grid{
+        width: 90%;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 2.25rem;
+    }
+    h5{
+        font-size: 1rem;
+    }
+    h6{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.12rem;
+    }
+    nav{
+        margin: 0px 5.37em 0px 4em;
+    }
+    .banner h3{
+        bottom:1em;
+        padding: 0px 2.40em 0px 1.40em;
+        margin-bottom: 0.05em;
+    }
+    .collectionSection{
+        min-height: 85%;
+        background: none;
+    
+    }
+    .collectionSection .grid{
+        padding: 1.6em 0 0 1.71em;
+    }
+    .firstwholeContainer{
+        margin: 1.5em 0 2em 0em;
+        min-height: 29%;
+    }
+    .firstwholeContainer div{
+        width: 30%;
+    }
+    .firstwholeContainer div h5{
+        top: 14.1em;
+    }
+    .secondwholeContainer{
+        margin: 0em 0 2em 0%;
+        min-height: 29%;
+    }
+    .secondwholeContainer div{
+        width: 30%;
+    }
+    .secondwholeContainer div h5{
+        top: 14.1em;
+    }
+    .photoStrip{
+        margin-top: 1.11em;
+    }
+    .articleOne p{
+        padding: 6% 0;
+    }
+    .articleTwo{
+        min-height: 168%;
+        padding-top: 1.5rem;
+    }
+    .articleTwo h2{
+        margin: 0 0 0.43em 0;
+    }
+    .articleTwo img{
+        max-width: 100%;
+        margin-left: 0rem;
+        float: none;
+        margin-top: 1rem;
+    }
+    .articleTwo .firstP{
+        max-width: 100%;
+        float: none;
+    }
+    .articleTwo .secondP{
+        max-width: 100%;
+        margin: 0.93rem 0 0 0rem;
+        float: none;
+    }
+    .articleThree{
+        min-height: 90%;
+        padding-top: 2.43rem;
+    }
+    .articleThree .about h2{
+        margin: 1.25rem 1.43rem 1.56rem 1.62rem;
+    }
+    .articleThree .about{
+        max-width: 100%;
+        min-height: 50%;
+    }
+    .articleThree .about p{
+        float: right;
+        max-width: 92%;
+        margin-right: 1.43rem;
+        line-height: 1.68rem;
+    }
+    .articleThree .about img{
+        margin: 0 0 0.93rem 1.62rem;
+        max-width: 25%;
+        display: none;
+    }
+    .articleThree .untoldStorySide{
+        min-width: 26%;
+        min-height: 30%;
+        float: left;
+        margin-top: 1rem;
+    }
+    .articleThree .untoldStorySide h4{
+        position: absolute;
+        text-align: center;
+        top: 0rem;
+        left:0rem;
+        width: 140%;
+        color: #000;
+        transform: translateX(15rem) translateY(3rem);
+    }
+    .articleThree .untoldStorySide p{
+        position: absolute;
+        top: 0rem;
+        right: 0rem;
+        line-height: 1.56rem;
+        width: 8.5rem;
+        height: 1.56rem;
+        background: #fff;
+        text-align: center;
+        transform: translateX(17rem)  translateY(9rem);
+    }
+    .articleThree .untoldStorySide p a{
+        font-size: 1.63rem;
+    }
+    footer{
+        min-height: 6%;
+        padding-top:1rem;
+    }
+    .finalSection{
+        max-width: 20.625rem;
+        margin: 0px auto;
+        font-size: 1rem;
+    }
+}
+@media(min-width:768px) and (max-width:992px){ /* tablets - 992px*/
+    .grid{
+        width: 90%;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    h4{
+        font-size: 2.25rem;
+    }
+    h5{
+        font-size: 1.5rem;
+    }
+    h6{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.12rem;
+    }
+    nav{
+        margin: 0px 5.37em 0px 4em;
+    }
+    .banner h3{
+        bottom:1em;
+        padding: 0px 2.40em 0px 1.40em;
+        margin-bottom: 0.05em;
+    }
+    .collectionSection{
+        min-height: 85%;
+        background: none;
+    
+    }
+    .collectionSection .grid{
+        padding: 1.6em 0 0 1.71em;
+    }
+    .firstwholeContainer{
+        margin: 1.5em 0 2em 0em;
+        min-height: 40%;
+    }
+    .firstwholeContainer div{
+        width: 30%;
+    }
+    .firstwholeContainer div h5{
+        top: 11.5em;
+    }
+    .secondwholeContainer{
+        margin: 0em 0 2em 0%;
+        min-height: 40%;
+    }
+    .secondwholeContainer div{
+        width: 30%;
+    }
+    .secondwholeContainer div h5{
+        top: 11.5em;
+    }
+    .photoStrip{
+        margin-top: 1.11em;
+    }
+    .articleOne p{
+        padding: 6% 0;
+    }
+    .articleTwo{
+        min-height: 168%;
+        padding-top: 1.5rem;
+    }
+    .articleTwo h2{
+        margin: 0 0 0.43em 0;
+    }
+    .articleTwo img{
+        max-width: 100%;
+        margin-left: 0rem;
+        float: none;
+        margin-top: 1rem;
+    }
+    .articleTwo .firstP{
+        max-width: 100%;
+        float: none;
+    }
+    .articleTwo .secondP{
+        max-width: 100%;
+        margin: 0.93rem 0 0 0rem;
+        float: none;
+    }
+    .articleThree{
+        min-height: 100%;
+        padding-top: 2.43rem;
+    }
+    .articleThree .about h2{
+        margin: 1.25rem 1.43rem 1.56rem 1.62rem;
+    }
+    .articleThree .about{
+        max-width: 100%;
+        min-height: 50%;
+    }
+    .articleThree .about p{
+        float: right;
+        max-width: 92%;
+        margin-right: 1.43rem;
+        line-height: 1.68rem;
+    }
+    .articleThree .about img{
+        margin: 0 0 0.93rem 1.62rem;
+        max-width: 25%;
+        display: none;
+    }
+    .articleThree .untoldStorySide{
+        min-width: 21%;
+        min-height: 41%;
+        float: left;
+        margin-top: 1rem;
+    }
+    .articleThree .untoldStorySide h4{
+        position: absolute;
+        text-align: center;
+        top: 0rem;
+        left:0rem;
+        width: 160%;
+        color: #000;
+        transform: translateX(25rem) translateY(5rem);
+    }
+    .articleThree .untoldStorySide p{
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        line-height: 1.56rem;
+        width: 8.5rem;
+        height: 1.56rem;
+        background: #fff;
+        text-align: center;
+        transform: translateX(30rem)  translateY(9rem);
+    }
+    .articleThree .untoldStorySide p a{
+        font-size: 1.63rem;
+    }
+    footer{
+        min-height: 6%;
+        padding-top:1rem;
+    }
+    .finalSection{
+        max-width: 31.625rem;
+        margin: 0px auto;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
+@media(min-width:992px) and (max-width:1200px){ /*small laptops - 1200px*/
+    .grid{
+        width: 80%;
+    }
+    h1{
+        font-size: 4rem;
+    }
+    h2{
+        font-size: 2rem;
+    }
+    h3{
+        font-size: 1.5rem;
+    }
+    h4{
+        font-size: 4.25rem;
+    }
+    h5{
+        font-size: 1.7rem;
+    }
+    h6{
+        font-size: 1.5rem;
+    }
+    p{
+        font-size: 1.12rem;
+    }
+    nav{
+        margin: 0px 5.37em 0px 4em;
+    }
+    .banner h3{
+        bottom:1em;
+        padding: 0px 2.40em 0px 1.40em;
+        margin-bottom: 0.05em;
+    }
+    .collectionSection{
+        min-height: 85%;
+        background: none;
+    
+    }
+    .collectionSection .grid{
+        padding: 1.6em 0 0 1.71em;
+    }
+    .firstwholeContainer{
+        margin: 1.5em 0 2em 0em;
+        min-height: 46%;
+    }
+    .firstwholeContainer div{
+        width: 30%;
+    }
+    .firstwholeContainer div h5{
+        top: 12.4em;
+    }
+    .secondwholeContainer{
+        margin: 0em 0 2em 0%;
+        min-height: 46%;
+    }
+    .secondwholeContainer div{
+        width: 30%;
+    }
+    .secondwholeContainer div h5{
+        top: 12.4em;
+    }
+    .photoStrip{
+        margin-top: 1.11em;
+    }
+    .articleOne p{
+        padding: 6% 0;
+    }
+    .articleTwo{
+        min-height: 170%;
+        padding-top: 2rem;
+    }
+    .articleTwo h2{
+        margin: 0 0 1em 0;
+    }
+    .articleTwo img{
+        max-width: 100%;
+        margin-left: 0rem;
+        float: none;
+        margin-top: 2rem;
+    }
+    .articleTwo .firstP{
+        max-width: 100%;
+        float: none;
+    }
+    .articleTwo .secondP{
+        max-width: 100%;
+        margin: 2rem 0 0 0rem;
+        float: none;
+    }
+    .articleThree{
+        min-height: 100%;
+        padding-top: 2.43rem;
+    }
+    .articleThree .about h2{
+        margin: 1.25rem 1.43rem 1.56rem 1.62rem;
+    }
+    .articleThree .about{
+        max-width: 100%;
+        min-height: 45%;
+    }
+    .articleThree .about p{
+        float: right;
+        max-width: 73%;
+        margin-right: 1.43rem;
+        line-height: 1.68rem;
+    }
+    .articleThree .about img{
+        margin: 0 0 0.93rem 1.62rem;
+        max-width: 18%;
+        /* display: none; */
+    }
+    .articleThree .untoldStorySide{
+        min-width: 21%;
+        min-height: 41%;
+        float: left;
+        margin-top: 2rem;
+    }
+    .articleThree .untoldStorySide h4{
+        position: absolute;
+        text-align: center;
+        top: 0rem;
+        left:0rem;
+        width: 173%;
+        color: #000;
+        transform: translateX(25.5rem) translateY(4rem);
+    }
+    .articleThree .untoldStorySide p{
+        position: absolute;
+        top: 0rem;
+        left: 0rem;
+        line-height: 1.56rem;
+        width: 8.5rem;
+        height: 1.56rem;
+        background: #fff;
+        text-align: center;
+        transform: translateX(32rem)  translateY(14rem);
+    }
+    .articleThree .untoldStorySide p a{
+        font-size: 1.63rem;
+    }
+    footer{
+        min-height: 6%;
+        padding-top:1rem;
+    }
+    .finalSection{
+        max-width: 31.625rem;
+        margin: 0px auto;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+}
